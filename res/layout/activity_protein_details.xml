@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <com.google.ads.AdView android:id="@+id/adView"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_alignParentBottom="true"
+                         ads:adUnitId="a1518640b2b6281"
+                         ads:adSize="SMART_BANNER"
+                         ads:loadAdOnCreate="true"/>
+    <ScrollView android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/adView">
+        
+        <LinearLayout android:id="@+id/lldetails"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+        android:id="@+id/tv_current_matrix"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="center"
+        android:text="Double Tap or Pinch to Zoom"
+        android:background="#60000000"
+        android:textColor="@android:color/white" />
+            
+         <ImageView android:id="@+id/ivDetails1"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"/>
+         
+         <ImageView android:id="@+id/ivDetails2"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"/>
+            
+        </LinearLayout>
+        
+    </ScrollView>
+    
+
+</RelativeLayout>

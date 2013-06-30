@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Protein Finder</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    
+        <string name="whey">Whey protein powders are high in quality and taste great, making them an ideal way to meet your daily nutritional requirements. Whey protein is easy to mix with water, juice or milk, and will provide about 20 to 25 grams of protein per serving.To get maximum results from your protein powder, take it directly after your workout along with a fast acting source of carbohydrates.</string>
+        <string name="massg">Many people have trouble putting on muscle mass. It can be difficult to keep your calorie intake up, and those of us with fast metabolisms burn most of what we take in. Mass Gainers are a quality protein and carbohydrate source packed with high quality calories.</string>
+        <string name="soy">Soy is a plant based protein that comes from soy beans. Like whey, it is considered a complete protein and contains all the essential amino acids. Because soy is plant based, it is a great alternative to whey protein for those dealing with diary allergies.</string>
+        <string name="creatine">Creatine is a naturally occurring amino acid (protein building block) thats found in meat and fish, and also made by the human body in the liver, kidneys, and pancreas. It helps in fast muscle recovery and should ideally be taken 20 to 25 minutes before workout.</string>
+        <string name="glut">Whether trying to pack on muscle or burn off fat, the first step to achieving your goals is work. The next step is recovery, which takes longer to complete. Longer recovery time means longer time to reach your goals. The body can lose up to 50% of its glutamine levels during training.</string>
+        <string name="multivit">Multivitamins are one of the best investments one can make in supplementing their exercise and diet. Essentially, multivitamins encourage efficiency in your body for all of its various functions. Multivitamins are great for almost anyone because they cover such a wide spectrum of nutrients and functions</string>
+        <string name="nos">Nitric oxide (NO) booster products can help you prepare for your workout and promote fast recovery during and after your workouts.Nitric Oxide may increase your body\'s ability to delivery blood to working muscles. Vasodilation helps your muscle to be fuller, increase vascularity and get a better pump in the gym.</string>
+    
+        <string name="nvg">This is a list of the main non-vegetarian protein sources.</string>
+        <string name="vg">This is a list of the main vegetarian protein sources.</string>
+        
+        
+    <string-array name="categories">
+        <item>Mass Gainer</item>
+        <item>Whey Protein</item>
+        <item>Soy Protein</item>
+        <item>Creatine</item>
+        <item>Glutamine</item>
+        <item>MultiVitamins</item>
+    </string-array>
+    
+    <string name="c_dosage">Creatine monohydrate is a natural substance that turns into creatine phosphate in the body. Creatine phosphate helps make a substance called adenosine triphosphate (ATP). ATP provides the energy for muscle contractions.
+        \n\n
+        The body is able to produce some creatine by itself, and can also get creatine from some foods like red meat and oily fish. 
+        \n\n
+        Consuming creatine with carbohydrates and proteins can increase its absorption in muscles.
+        \n\n
+		Frequent doses of 5grams are better than one large dose.
+		\n\n
+		Initial loading of 0.3gm per kg of body weight for first 5-10 days is essential as this would increase muscular concentration of creatine and later we just need to sustain the levels by taking a little creatine.
+		0.3gm per kg of body weight for first 5-10 days. After that........
+		\n\n
+		For beginners - 5grams per day
+		\n\n
+		For Intermediates – 8 grams per day
+		\n\n
+		For Experts – 10 grams per day
+		\n\n
+		People with liver and kidney disorders should avoid taking creatine.
+		\n\n
+		*As with all supplements, consult advice of doctor if you have pre-disposed medical conditions. Also refer to manufacturers label to see dosage recommendations.
+        </string>
+        
+    <string name="g_dosage">
+        After an intense training Glutamine levels in body are almost halved. Glutamine can help reduce the muscle deterioration that occurs as other need glutamine will not rob the Glutamine stored in muscle cells. In summary, Glutamine promotes nutrient assimilation, regulates protein synthesis, stimulates growth hormone production and enhances the immune system.
+        \n\n
+        Around 2-5 grams of Glutamine are produced daily by our body with the help of our diet.
+        \n\n
+        Dosage recommendation: 5 grams before and 5 grams after training. (for everyone)
+        \n\n
+        Ingestion in large amount may cause upset stomach. Diabetic and cancer patients should exercise caution when using Glutamine because they synthesize metabolic glutamine abnormally.
+        \n\n
+		*As with all supplements, consult advice of doctor if you have pre-disposed medical conditions. Also refer to manufacturers label to see dosage recommendations.
+        </string>
+    
+    <string name="b_dosage">
+        BCAAs make a great energy source for working muscles because of their unique metabolism. This allows individuals to train harder for longer without fatigue due to the higher energy demands being met. There are not many supplements in existence that have the ability to affect growth and performance through as many different pathways as BCAAs.
+        \n\n
+        Beginners:\n
+•	150 lbs. or less - 3 grams before, during, and after training.\n
+•	151 lbs. or more - 5 grams before, during, and after training.
+\n\n
+Intermediates:\n
+•	151 lbs. or more - 8 grams before, during, and after training.\n
+•	151 lbs. or more - 12 grams before, during, and after training.
+\n\n
+Experts:\n
+•	150 lbs. or less - 10 grams before, during, and after training.\n
+•	151 lbs. or more - 15 grams before, during, and after training.
+\n\n
+		*As with all supplements, consult advice of doctor if you have pre-disposed medical conditions. Also refer to manufacturers label to see dosage recommendations.
+        
+        </string>
+    
+    
+</resources>

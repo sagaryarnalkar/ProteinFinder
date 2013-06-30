@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sagar.proteinfinder"
+    android:versionCode="5"
+    android:versionName="3.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+<uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:name="com.sagar.proteinfinder.App"
+        android:allowBackup="true"
+        android:icon="@drawable/proteinfindericon"
+        android:label="@string/app_name"
+        android:theme="@style/CustomTheme"  >
+        
+        <activity
+            android:name="com.sagar.proteinfinder.ActivitySplashScreen"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.sagar.proteinfinder.MainActivity"
+            android:label="@string/app_name" 
+           android:screenOrientation="portrait"
+           android:theme="@style/CustomTheme">
+        </activity>
+        
+        <activity
+            android:name="com.sagar.proteinfinder.ActivityProteinBrowseMain"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+           android:theme="@style/CustomTheme" >
+        </activity>
+        
+        <activity
+            android:name="com.sagar.proteinfinder.ActivityProteinListing"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+           android:theme="@style/CustomTheme" >
+        </activity>
+        
+        <activity
+            android:name="com.sagar.proteinfinder.ActivityProteinFinder"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+           android:theme="@style/CustomTheme" >
+        </activity>
+        
+        <activity
+            android:name="com.sagar.proteinfinder.ActivityUnderstand"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+           android:theme="@style/CustomTheme" >
+        </activity>
+        
+        <activity
+            android:name="com.sagar.proteinfinder.ActivityProteinCalculator"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+           android:theme="@style/CustomTheme" >
+        </activity>
+        
+         <activity
+            android:name="com.sagar.proteinfinder.ActivityOtherDosage"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+           android:theme="@style/CustomTheme" >
+        </activity>
+        
+         <activity
+            android:name="com.sagar.proteinfinder.ActivityMotivationGrid"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+           android:theme="@style/CustomTheme" >
+        </activity>
+        
+         <activity
+            android:name="com.sagar.proteinfinder.ActivityPhotoView"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+           android:theme="@style/CustomTheme" >
+        </activity>
+        
+         <activity
+            android:name="com.sagar.proteinfinder.ActivityFoodListing"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+           android:theme="@style/CustomTheme" >
+        </activity>
+        
+         <activity
+            android:name="com.sagar.proteinfinder.ActivityFoodBrowseMain"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+           android:theme="@style/CustomTheme" >
+        </activity>
+        
+         <activity
+            android:name="com.sagar.proteinfinder.ActivityProteinDetails"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+           android:theme="@style/CustomTheme" >
+        </activity>
+        
+        <!-- AdMobActivity definition -->
+<activity android:name="com.google.ads.AdActivity"
+ android:configChanges= "keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+
+
+<!-- Mandatory activity declaration to show the Ad in the embedded browser -->
+		<activity android:name="com.inmobi.androidsdk.IMBrowserActivity"
+			android:configChanges="keyboardHidden|orientation|keyboard|smallestScreenSize|screenSize" />
+    </application>
+
+</manifest>

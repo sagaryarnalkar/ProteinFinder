@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_layout"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/ivViewStockItemArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="asdasd" />
+
+    <FrameLayout
+        android:id="@+id/flStockImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp" >
+
+        <ImageView
+            android:id="@+id/ivStockIcon"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="asdsad" />
+
+       
+    </FrameLayout>
+
+   <LinearLayout
+        android:id="@+id/llStockInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/ivViewStockItemArrow"
+        android:layout_toRightOf="@+id/flStockImage"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:scrollHorizontally="true"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+        
+        <TextView
+            android:id="@+id/tvqserv"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:scrollHorizontally="true"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+        
+        <TextView
+            android:id="@+id/tvproteins"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:scrollHorizontally="true"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/tvcals"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:scrollHorizontally="true"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/tvppercals"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:ellipsize="end"
+            android:maxLines="4"
+            android:scrollHorizontally="true"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+</LinearLayout>
+
+
+</RelativeLayout>
